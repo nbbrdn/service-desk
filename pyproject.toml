@@ -1,12 +1,14 @@
 [project]
 name = "service-desk"
 version = "0.1.0"
-package-mode = false
 description = ""
 authors = [
     {name = "Nikolay Bayborodin",email = "nbbrdn@gmail.com"}
 ]
 readme = "README.md"
+
+[tool.poetry]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
